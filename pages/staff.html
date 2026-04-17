@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Staff - Gryphon</title>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="../assets/img/logo.png">
+    <span>Gryphon Staff</span>
+  </div>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="staff.html">Staff</a>
+    <a href="info.html">Info</a>
+  </nav>
+</header>
+
+<section class="container">
+
+  <h2 class="section-title">Founder</h2>
+  <div class="staff-section">
+
+    <div class="staff-card" onclick="openStaff('z4nu3l')">
+      <img src="https://mc-heads.net/avatar/z4nu3l">
+      <h3>z4nu3l</h3>
+    </div>
+
+    <div class="staff-card" onclick="openStaff('nicho033')">
+      <img src="https://mc-heads.net/avatar/nicho033">
+      <h3>Nicho033</h3>
+    </div>
+
+  </div>
+
+  <h2 class="section-title">Co-Founder</h2>
+  <div class="staff-section">
+
+    <div class="staff-card" onclick="openStaff('Panna2010')">
+      <img src="https://mc-heads.net/avatar/Panna2010">
+      <h3>Panna</h3>
+    </div>
+
+  </div>
+
+  <h2 class="section-title">Mod/Builder</h2>
+  <div class="staff-section">
+
+    <div class="staff-card" onclick="openStaff('ErKecione22')">
+      <img src="https://mc-heads.net/avatar/ErKecione22">
+      <h3>Mod / Builder</h3>
+    </div>
+
+  </div>
+
+  <h2 class="section-title">Helper</h2>
+  <div class="staff-section">
+
+    <div class="staff-card" onclick="openStaff('Franztroll_ITA')">
+      <img src="https://mc-heads.net/avatar/Franztroll_ITA">
+      <h3>Franztroll_ITA</h3>
+    </div>
+
+    <div class="staff-card" onclick="openStaff('dark_champ_00')">
+      <img src="https://mc-heads.net/avatar/dark_champ_00">
+      <h3>dark_champ</h3>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- MODALE STAFF -->
+<div id="staffModal" class="modal">
+
+  <div class="modal-content staff-modal">
+
+    <span class="close" onclick="closeStaff()">×</span>
+
+    <div id="staffContent"></div>
+
+  </div>
+
+</div>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

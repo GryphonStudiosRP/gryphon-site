@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Info - Gryphon</title>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- ICONE -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="../assets/img/logo.png">
+    <span>Gryphon Info</span>
+  </div>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="staff.html">Staff</a>
+    <a href="info.html">Info</a>
+  </nav>
+</header>
+
+<!-- 🎬 QUADRANTI VIDEO -->
+<section class="container">
+
+  <h2 class="section-title">Il nostro mondo</h2>
+
+  <div class="quad-grid">
+
+    <div class="quad" onclick="openVideo('../assets/video/video1.mp4')">
+      <video src="../assets/video/video1.mp4" muted></video>
+    </div>
+
+    <div class="quad" onclick="openVideo('../assets/video/video2.mp4')">
+      <video src="../assets/video/video2.mp4" muted></video>
+    </div>
+
+    <div class="quad" onclick="openVideo('../assets/video/video3.mp4')">
+      <video src="../assets/video/video3.mp4" muted></video>
+    </div>
+
+    <div class="quad" onclick="openVideo('../assets/video/video4.mp4')">
+      <video src="../assets/video/video4.mp4" muted></video>
+    </div>
+
+  </div>
+
+</section>
+  </div>
+
+</section>
+
+<!-- 🎬 MODALE VIDEO -->
+<div id="videoModal" class="modal">
+
+  <div class="modal-content video-box">
+
+    <span class="close" onclick="closeVideo()">×</span>
+
+    <video id="modalVideo" controls></video>
+
+  </div>
+
+</div>
+
+<script src="../assets/js/main.js"></script>
+<section class="container">
+
+  <div class="status-box">
+
+    <div class="status-left">
+      <h2>Server Status</h2>
+      <p id="serverStatus">🟡 Controllo in corso...</p>
+      <p id="playerCount">Player: --/100</p>
+    </div>
+
+    <div class="status-right">
+
+      <div class="ip-box" onclick="copyIP()">
+        <span>play.gryphonrp.it</span>
+        <i class="fa-solid fa-copy"></i>
+      </div>
+
+      <p id="copyMsg">Clicca per copiare IP</p>
+
+    </div>
+
+  </div>
+
+</section>
+<section class="container">
+
+  <h2 class="section-title">Why Join Gryphon RP</h2>
+
+  <div class="why-grid">
+
+    <div class="why-card">
+      <i class="fa-solid fa-bolt"></i>
+      <h3>Esperienza Unica</h3>
+      <p>Sistema RP avanzato e dinamico con meccaniche custom.</p>
+    </div>
+
+    <div class="why-card">
+      <i class="fa-solid fa-users"></i>
+      <h3>Community Attiva</h3>
+      <p>Staff sempre presente e player attivi ogni giorno.</p>
+    </div>
+
+    <div class="why-card">
+      <i class="fa-solid fa-shield"></i>
+      <h3>Staff Serio</h3>
+      <p>Moderazione attiva e server sempre controllato.</p>
+    </div>
+
+  </div>
+
+</section>
+<section class="container">
+
+  <div class="join-community">
+
+    <h2>Unisciti alla Community</h2>
+    <p>Entra nel server Discord e fai parte del mondo Gryphon Roleplay.</p>
+
+    <a href="https://discord.gg/Tdyz2FGZ" class="discord-btn" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-discord"></i>
+      Entra su Discord
+    </a>
+
+    <div class="social-small">
+
+  <a href="https://instagram.com/gryphon_studios" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://tiktok.com/@TUO_PROFILO" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <a href="https://youtube.com/@TUO_CANale" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-youtube"></i>
+  </a>
+
+</div>
+
+  </div>
+</body>
+</html>
